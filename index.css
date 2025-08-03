@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-slate-800 animate-gradient-move;
+    background: linear-gradient(-45deg, #e2e8f0, #f8fafc, #e2e8f0, #f1f5f9);
+    background-size: 400% 400%;
+  }
+}
