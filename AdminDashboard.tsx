@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import { getReferrals, getReferrers, updateReferralStatus, getBookingRequests, updateBookingRequestStatus } from '../services/api.ts';
-import { Referral, Referrer, ReferralStatus, BadgeTier, BookingRequest, BookingStatus } from '../types.ts';
-import { BADGE_THRESHOLDS } from '../constants.ts';
-import { Card } from './ui/Card.tsx';
-import { Badge } from './ui/Badge.tsx';
-import { Button } from './ui/Button.tsx';
-import { UserIcon } from './icons/UserIcon.tsx';
-import { CalendarIcon } from './icons/CalendarIcon.tsx';
-import { PhoneIcon } from './icons/PhoneIcon.tsx';
+import { getReferrals, getReferrers, updateReferralStatus, getBookingRequests, updateBookingRequestStatus } from './api.ts';
+import { Referral, Referrer, ReferralStatus, BadgeTier, BookingRequest, BookingStatus } from './types.ts';
+import { BADGE_THRESHOLDS } from './constants.ts';
+import { Card } from './Card.tsx';
+import { Badge } from './Badge.tsx';
+import { Button } from './Button.tsx';
+import { UserIcon } from './UserIcon.tsx';
+import { CalendarIcon } from './CalendarIcon.tsx';
+import { PhoneIcon } from './PhoneIcon.tsx';
 
 const getBadgeTier = (count: number): BadgeTier => {
   if (count >= BADGE_THRESHOLDS.Platinum) return BadgeTier.Platinum;

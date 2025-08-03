@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useRef } from 'react';
-import { Card } from './ui/Card.tsx';
-import { Button } from './ui/Button.tsx';
-import { Input } from './ui/Input.tsx';
-import { submitBookingRequest } from '../services/api.ts';
-import { UserIcon } from './icons/UserIcon.tsx';
-import { PhoneIcon } from './icons/PhoneIcon.tsx';
+import { Card } from './Card.tsx';
+import { Button } from './Button.tsx';
+import { Input } from './Input.tsx';
+import { submitBookingRequest } from './api.ts';
+import { UserIcon } from './UserIcon.tsx';
+import { PhoneIcon } from './PhoneIcon.tsx';
 
 // Helper function to get the next 5 weekdays
 const getNextWeekdays = () => {

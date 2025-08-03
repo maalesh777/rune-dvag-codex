@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../AuthContext.tsx';
-import { Card } from './ui/Card.tsx';
-import { Button } from './ui/Button.tsx';
+import { useAuth } from './AuthContext.tsx';
+import { Card } from './Card.tsx';
+import { Button } from './Button.tsx';
 
 const GoogleIcon = () => (
   <svg className="w-6 h-6" viewBox="0 0 48 48" aria-hidden="true">

@@ -1,6 +1,6 @@
 import React from 'react';
-import { BadgeTier } from '../../types.ts';
-import { BADGE_STYLES } from '../../constants.ts';
+import { BadgeTier } from './types.ts';
+import { BADGE_STYLES } from './constants.ts';
 
 interface BadgeProps {
   tier: BadgeTier;
@@ -15,3 +15,4 @@ export const Badge = ({ tier }: BadgeProps) => {
     </span>
   );
 };
+
