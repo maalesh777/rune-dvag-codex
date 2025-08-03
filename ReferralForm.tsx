@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import { Card } from './ui/Card.tsx';
-import { Input } from './ui/Input.tsx';
-import { Button } from './ui/Button.tsx';
-import { submitReferral } from '../services/api.ts';
-import { UserIcon } from './icons/UserIcon.tsx';
-import { CalendarIcon } from './icons/CalendarIcon.tsx';
+import { Card } from './Card.tsx';
+import { Input } from './Input.tsx';
+import { Button } from './Button.tsx';
+import { submitReferral } from './api.ts';
+import { UserIcon } from './UserIcon.tsx';
+import { CalendarIcon } from './CalendarIcon.tsx';
 
 /**
  * A form that allows users to recommend a new contact. This component uses

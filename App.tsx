@@ -1,13 +1,13 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Header } from './components/Header.tsx';
-import { Footer } from './components/Footer.tsx';
-import { ReferralForm } from './components/ReferralForm.tsx';
-import { About } from './components/About.tsx';
-import { Booking } from './components/Booking.tsx';
-import { Login } from './components/Login.tsx';
-import { AdminDashboard } from './components/AdminDashboard.tsx';
-import ProtectedRoute from './components/ProtectedRoute.tsx';
+import { Header } from './Header.tsx';
+import { Footer } from './Footer.tsx';
+import { ReferralForm } from './ReferralForm.tsx';
+import { About } from './About.tsx';
+import { Booking } from './Booking.tsx';
+import { Login } from './Login.tsx';
+import { AdminDashboard } from './AdminDashboard.tsx';
+import ProtectedRoute from './ProtectedRoute.tsx';
 import { useAuth } from './AuthContext.tsx';
 
 

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { Button } from './ui/Button.tsx';
-import { MenuIcon } from './icons/MenuIcon.tsx';
-import { XIcon } from './icons/XIcon.tsx';
-import { useAuth } from '../AuthContext.tsx';
+import { Button } from './Button.tsx';
+import { MenuIcon } from './MenuIcon.tsx';
+import { XIcon } from './XIcon.tsx';
+import { useAuth } from './AuthContext.tsx';
 
 
 interface NavLinksProps {

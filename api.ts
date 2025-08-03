@@ -11,19 +11,19 @@ import {
   limit,
   runTransaction,
   serverTimestamp,
-} from '../firebase.ts';
+} from './firebase.ts';
 import type {
   QueryDocumentSnapshot,
   DocumentData,
   Timestamp
-} from '../firebase.ts';
+} from './firebase.ts';
 import { 
     Referral, 
     Referrer, 
     ReferralStatus, 
     BookingRequest, 
     BookingStatus 
-} from '../types.ts';
+} from './types.ts';
 
 const toReferral = (docSnap: QueryDocumentSnapshot<DocumentData>): Referral => {
     const data = docSnap.data()!;

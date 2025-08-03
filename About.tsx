@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card } from './ui/Card.tsx';
-import { Button } from './ui/Button.tsx';
+import { Card } from './Card.tsx';
+import { Button } from './Button.tsx';
 
 interface ServiceCardProps {
     icon: string;
@@ -85,3 +85,4 @@ export const About = () => {
         </div>
     );
 };
+

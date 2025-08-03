@@ -24,3 +24,4 @@ export const BADGE_STYLES: Record<BadgeTier, { bg: string; text: string; label: 
   [BadgeTier.Bronze]: { bg: 'bg-orange-600', text: 'text-white', label: 'Bronze', icon: '🥉' },
   [BadgeTier.None]: { bg: 'bg-gray-200', text: 'text-gray-600', label: 'Einsteiger', icon: '' },
 };
+
