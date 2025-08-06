@@ -17,7 +17,7 @@
  * You can find these in your Firebase project settings.
  */
 export const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyAY4x72mHtiZDzdCy-N1bpD4e0YmnHqH9Y",
+  apiKey: "PLACEHOLDERGITHUB",
   authDomain: "rune-app-ref-367ac.firebaseapp.com",
   projectId: "rune-app-ref-367ac",
   storageBucket: "rune-app-ref-367ac.appspot.com",
